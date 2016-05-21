@@ -1,3 +1,72 @@
-body {
-	background-color: red;
+
+/* --- Body --- */
+
+img {
+	max-width: 100%;
+}
+
+
+/* --- Title --- */
+
+#header {
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font-size: 3rem;
+	position: relative;
+	top: -40px;
+}
+
+/* --- Nav buttons --- */
+
+#nav {
+	font-family: 'Poiret One', cursive;
+	font-size: 2rem;
+	text-align: center;
+	position: relative;
+	top: -40px;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+
+#nav li {
+	list-style-type: none;
+	display: inline;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#nav a {
+	text-decoration: none;
+}
+
+#nav a:hover {
+	font-weight: bolder;
+	color: black;
+}
+
+.selected {
+	color: black;
+	font-weight: bolder;
+}
+
+/* --- Gallery --- */
+
+#gallery {
+	margin: 0;
+	padding: 0;
+}
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	list-style: none;
+}
+
+/* --- Footer --- */
+
+#footer {
+	text-align: center;
+	font-size: 1rem;
+	font-stretch: bolder;
 }
